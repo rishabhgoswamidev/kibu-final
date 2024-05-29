@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kibu</title>
+
+    <!-- google icon css link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- home page css -->
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar sticky">
+        <div class="logo">
+          <!-- Example logo -->
+          <span class="material-symbols-outlined pointer"> flutter </span>
+          <span class="pointer kibu-text"><a href="../home/home.html">Kibu</a></span>
+        </div>
+
+        <div class="shortcut">
+          <ul class="nav-ul">
+            <li class="pointer"><a href="./home.html">Home</a></li>
+            
+           
+            <li class="pointer">
+              <a href="../contectUs/contectUs.html">Contect</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="user">
+          <div class="login-div pointer"><a href="../Login/Login.html">Login</a></div>
+          <div class="profile-div pointer">
+            <span class="material-symbols-outlined"> person </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-div">
+      <div class="content-area">
+        <div class="search-bar">
+          <div class="search-icon">
+            <span class="material-symbols-outlined search-logo pointer">
+              search
+            </span>
+          </div>
+          <form>
+            <input
+              id="input-search"
+              type="text"
+              placeholder="Search for images,videos"
+            />
+          </form>
+        </div>
+
+        <!-- form script -->
+        <script src="home.js"></script>
+
+        
+        <div class="break"></div>
+        <div class="image-video-selector">
+          <p class="images pointer">Images</p>
+          <p class="videos pointer">videos</p>
+        </div>
+
+        <div class="search-results"></div>
+      </div>
+    </div>
+  </body>
+</html>
